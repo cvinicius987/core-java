@@ -21,8 +21,6 @@ public class ReadNIO{
 		long initial = System.currentTimeMillis();
 		
 		try{
-			System.out.println(" >>>> Inicio da execução.");
-			
 			Files.readAllLines(FILE)
 				 .stream()
 				 .forEach(str -> {});
