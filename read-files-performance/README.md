@@ -2,7 +2,9 @@
 
 Leitura de arquivos utilizando diferentes bibliotecas para comparação e análise de performance.
 
-## Apache Commons;
-## NIO;
-## NIO BufferedReader;
-## Scanner;
+Bibliotecas utilizadas:
+
+ - Apache Commons;
+ - NIO;
+ - NIO BufferedReader;
+ - Scanner;
