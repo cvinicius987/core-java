@@ -4,7 +4,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 
 public class ManipulacaoJavaTime {
 
@@ -84,5 +86,25 @@ public class ManipulacaoJavaTime {
 		System.out.println(isAfter);
 		System.out.println(isBefore);
 		System.out.println(isEqual+"\n");
+		
+		//Usando a classe Period
+		LocalDate localDate10 = LocalDate.now();
+		LocalDate localDate11 = LocalDate.now().plusDays(2);
+		
+		Period period1 = Period.between(localDate10, localDate11);
+		
+		System.out.println(period1.get(ChronoUnit.DAYS)+"\n");
+	
+		//Usando a enum ChronoUnit
+		LocalDateTime localDateTime12 = LocalDateTime.now();
+		LocalDateTime localDateTime13 = LocalDateTime.now().plusDays(2);
+		
+		long periodAsMinutes = ChronoUnit.MINUTES.between(localDateTime12, localDateTime13);
+		long periodAsHours 	 = ChronoUnit.HOURS.between(localDateTime12, localDateTime13);
+		long periodAsDays 	 = ChronoUnit.DAYS.between(localDateTime12, localDateTime13);
+		
+		System.out.println(periodAsMinutes+" Minutos");
+		System.out.println(periodAsHours+" Horas");
+		System.out.println(periodAsDays+" Dias");
 	}
 }
