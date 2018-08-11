@@ -1,4 +1,4 @@
-package br.com.cvinicius.carrinho;
+package br.com.improving.carrinho;
 
 import java.util.Objects;
 
