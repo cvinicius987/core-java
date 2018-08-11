@@ -1,4 +1,4 @@
-package br.com.improving.carrinho;
+package br.com.cvinicius.carrinho;
 
 import org.junit.Assert;
 import org.junit.Test;
