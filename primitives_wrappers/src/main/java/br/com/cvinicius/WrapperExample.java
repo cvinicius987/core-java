@@ -1,6 +1,6 @@
 package br.com.cvinicius;
 
-public class CompareExemplo2 {
+public class WrapperExample {
 
 	public static void main(String[] args) {
 		
