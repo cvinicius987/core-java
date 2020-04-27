@@ -1,3 +1,3 @@
-# projetos-java
+# core-java
 
-Projetos e Frameworks para desenvolvimento Java
+### Conteúdos relacionados as principais funcionalidades da plataforma Java, entre elas APIs, espeficicações, releases e o core da linguagem.
