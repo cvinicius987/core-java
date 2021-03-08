@@ -1,3 +1,11 @@
-# core-java
+# Core Java
 
-#### Conteúdos relacionados as principais funcionalidades da plataforma Java, entre elas APIs, novos releases, e core da linguagem.
+Projects and contents form Java Plataform, language core, concepts, best practices and others.
+
+### Content
+- [x] Core Language
+- [x] Projects
+- [x] Libraries
+- [x] Best Practices
+
+[⬆ Voltar ao topo](#core-java)<br>
