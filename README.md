@@ -8,4 +8,4 @@ Java Platform, language core, concepts, best practices and others.
 - [x] Libraries
 - [x] Best Practices
 
-[⬆ Voltar ao topo](#core-java)<br>
+[⬆ Back to top](#core-java)<br>
