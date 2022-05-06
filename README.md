@@ -1,6 +1,6 @@
 # Core Java
 
-Projects and contents form Java Plataform, language core, concepts, best practices and others.
+Java Platform, language core, concepts, best practices and others.
 
 ### Content
 - [x] Core Language
